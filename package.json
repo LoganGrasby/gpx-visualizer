@@ -1,0 +1,21 @@
+{
+  "name": "gpx-visualizer",
+  "version": "1.0.0",
+  "description": "A simple GPX file visualizer using Leaflet.js",
+  "main": "app.js",
+  "scripts": {
+    "build": "echo 'No build required for static site'",
+    "dev": "npx serve"
+  },
+  "keywords": [
+    "gpx",
+    "leaflet",
+    "map",
+    "visualization"
+  ],
+  "author": "Logan Grasby",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}

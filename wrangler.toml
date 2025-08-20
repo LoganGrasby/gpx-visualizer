@@ -1,0 +1,4 @@
+name = "gpx-visualizer"
+main = "workers-site/index.js"
+site = { bucket = "./", entry-point = "workers-site" }
+compatibility_date = "2023-01-01"
