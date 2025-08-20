@@ -4,7 +4,7 @@
   "description": "A simple GPX file visualizer using Leaflet.js",
   "main": "app.js",
   "scripts": {
-    "build": "echo 'No build required for static site'",
+    "build": "mkdir -p public && cp index.html styles.css app.js yushan.gpx public/",
     "dev": "npx serve"
   },
   "keywords": [
