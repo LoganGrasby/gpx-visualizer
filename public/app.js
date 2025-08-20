@@ -195,5 +195,8 @@ function calculateDistance(lat1, lon1, lat2, lon2) {
 
 // Load sample file on page load
 window.addEventListener('DOMContentLoaded', () => {
-    loadSampleFile();
+    // Add a small delay to ensure the map is fully initialized
+    setTimeout(() => {
+        loadSampleFile();
+    }, 500);
 });
