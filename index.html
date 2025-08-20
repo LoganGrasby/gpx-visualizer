@@ -24,7 +24,13 @@
             <button id="sampleBtn">Load Sample (Yushan)</button>
         </div>
         
+        <div class="view-toggle">
+            <button id="mapViewBtn" class="view-btn active">Map View</button>
+            <button id="map3dViewBtn" class="view-btn">3D View</button>
+        </div>
+        
         <div id="map"></div>
+        <div id="map3d" class="hidden"></div>
         
         <div class="info-panel">
             <div class="track-info">
@@ -38,6 +44,8 @@
     
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://unpkg.com/togeojson@0.5.4/togeojson.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mrdoob/three.js@r128/examples/js/controls/OrbitControls.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
